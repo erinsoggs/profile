@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700&display=swap');
+
+
+body {
+  background-color: #f7f9fc;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1, h2  {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: #575f7d;
+}
+
+h2 {
+  font-size: 28px;
+  color: #7ece90;
+}
+
+p {
+  color: #575f7d;
+  margin-bottom: 24px;
+}
+
+a:hover {
+  color: pink;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-pink {
+  background: #f4def2;
+  padding: 24px;
+  width: 600px;
+  margin: 32px auto;
+  border-radius: 4px;
+  box-shadow: 0 0px 32px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-small {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+}
+
+.btn-blue {
+  background-color: #6b72e1;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.btn-blue:hover {
+  background:rgb(20,20,20);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline i {
+  font-size: 42px;
+  letter-spacing: 26px;
+  padding-left: 33px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.icon-social {
+  margin: 0 16px;
+  font-size: 24px;
+  color: #e6e6e6;
+  transition: 0.3s;
+}
+
+.icon-social:hover {
+  color: rgb(20,20,20);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
